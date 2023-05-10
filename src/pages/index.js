@@ -40,7 +40,7 @@ export default function Home({ posts, pagination }) {
             {posts.map((post) => {
               return (
                 <li key={post.slug}>
-                  <PostCard post={post} />
+                  <PostCard post={post}  />
                 </li>
               );
             })}
